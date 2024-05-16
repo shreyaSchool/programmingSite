@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Font, website title, link to stylesheet -->
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>History</title>
+  <link rel="stylesheet" href="wingSelector.css"/>
+</head>
+
+
+<body>
+
+	<!-- Navigation Bar -->
+	<div class="navigationBarwingSelector">
+		 <ul>
+  			<li><a href="index.html">Home</a></li>
+  			<li><a href="history.html">History</a></li>
+			  <li><a href="wingSelector.html">Wing Selector</a></li>
+        <li><a href="https://ordering.wingstop.com/flavors">Order Wingstop</a></li>
+		</ul>
+	</div>
+
+	<!-- Title -->
+	<div class="wsTitle">
+		<h1 style="font-family: 'Bebas Neue'">Wing Selector</h1>
+	</div>
+
+	<!-- Introduction -->
+	<div class="wsIntro">
+		<p>As a beginner, it's hard to know what flavors finna slap. Use this short quiz to hopefully find your wing soulmate. If you are redirected back to this page you're too picky and no wing matched your criteria so do it again.</p>
+	</div>
+
+    <!-- Selector -->
+    <div class="selector">
+        <form id="wingSelectorForm">
+        <!-- Attribute 1 -->
+          <fieldset>
+            <legend>Spice Level:</legend>
+            <label><input type="radio" name="spice" value="mild" required> Mild</label>
+            <label><input type="radio" name="spice" value="moderate"> Moderate</label>
+            <label><input type="radio" name="spice" value="hot"> Hot</label>
+          </fieldset>
+          
+        <!-- Attribute 2 -->
+          <fieldset>
+            <legend>Texture:</legend>
+            <label><input type="radio" name="texture" value="wet" required> Wet</label>
+            <label><input type="radio" name="texture" value="dry"> Dry</label>
+          </fieldset>
+          
+        <!-- Attribute 3 -->
+          <fieldset>
+            <legend>General Flavor:</legend>
+            <label><input type="radio" name="flavor" value="smoky" required> Smoky</label>
+            <label><input type="radio" name="flavor" value="sweet"> Sweet</label>
+            <label><input type="radio" name="flavor" value="tangy"> Tangy</label>
+            <label><input type="radio" name="flavor" value="none"> None</label>
+          </fieldset>
+          
+        <!-- Submit Button -->
+          <button type="submit">Find My Flavor</button>
+        </form>
+        <div id="result"></div>
+      </div>
+      <script src="script.js" defer></script>
+
+<img src="wingstopMeme.png" alt="meme" width="400" height="350">
+</body>
+
+</html>

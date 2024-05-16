@@ -1,0 +1,46 @@
+/* defaults */
+body {
+    text-align: center;
+      font-family:"Bebas Neue", sans-serif;
+      background-color:green;
+  }
+  
+  /* navigation bar */
+  .navigationBarWings ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navigationBarWings li {
+    float: left;
+  }
+  
+  .navigationBarWings li a {
+    float: left;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  /* Home Title */
+  .wingTitle {
+    font-size: 50px;
+  }
+  
+  /* Intro */
+  .wingOV {
+    font-size: 30px;
+  }
+  
+  /* font config */
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

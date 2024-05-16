@@ -1,29 +1,66 @@
+/* defaults */
 body {
-    text-align: center;
-	font-family:Noto Sans, sans-serif;
+  text-align: center;
+	font-family:"Bebas Neue", sans-serif;
 	background-color:green;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  font-weight: bold;
-  font-family: Noto Sans, sans-serif;
-  text-decoration: underline;
-  color:rgb(0, 0, 0); 
-  text-align: center;
-  padding: 14px 16px;
-}
-ul {
+/* navigation bar */
+.navigationBar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-/*ul {
-    display: inline-block;
-    padding: 0;
-}*/
+.navigationBar li {
+  float: left;
+}
+
+.navigationBar li a {
+  float: left;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Home Title */
+.homeTitle {
+  font-size: 50px;
+}
+
+/* Intro */
+.introduction {
+  font-size: 30px;
+}
+
+/* Puts images on same line */
+.imageRow {
+  display: flex;
+}
+
+.imageColumn {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* Centers bullet points on flavor ranking list */
+.flavorRanking p {
+  font-size: 30px;
+}
+.flavorRanking ul {
+  font-size: 30px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* font config */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
